@@ -1,38 +1,144 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.IdCard{
+  border: 1px solid black;
+ /* text-align: center; */
+display: flex;
+flex-direction: row;
+align-content : center;
+margin: auto;
+padding: 5px;
+width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.picture{
+  height: 100%;
+  margin-top: 10px;
+  margin-left:10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p{
+  text-align: left;
+  margin-left: 50px;
+  line-height: 10px;
+}
+
+.greeting{
+  border: 1px solid black;
+ display: flex;
+ flex-direction: row;
+ align-content : center;
+ margin: auto;
+ width: 500px;
+}
+
+.language{
+  margin-left: 20px;
+}
+
+.random{
+  font-size: 19px;
+  border: 1px solid black;
+ display: flex;
+ flex-direction: row;
+ align-content : center;
+ margin: auto;
+ width: 475px;
+ padding: 15px;
+}
+
+.box{
+  font-size: 19px;
+ display: inline-block;
+ flex-direction: row;
+ align-content : center;
+ margin: auto;
+ width: 475px;
+ padding: 15px;
+}
+
+.hex{
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.rgbColors{
+  display: flex;
+  justify-content: center;
+}
+
+.cardType {
+  height: 20px;
+  float: right;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.imagesProfile{
+  height: 50px;
+  border-radius: 50%;
+  
+}
+
+.cc{
+  display: flex;
+  justify-content: center;
+}
+
+.card1{
+  background-color: #11aa99;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.card2{
+  background-color: #eeeeee;
+  width: 330px;
+  margin: 0 20px ;
+  border-radius: 10px;
+}
+
+.card3{
+  background-color: #ddbb55;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.cardDisplay{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-right: 25px;
+}
+
+.ratingCard{
+font-size: 19px;
+display: inline-block;
+flex-direction: column;
+width: 500px;
+background-color: rgb(74, 93, 175);
+color: white;
+}
+
+.driver1{
+ margin-bottom: 20px;
+}
+
+.imagesProfile{
+  margin-top: 10px;
+}
+
+.licensePlate{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.driverName{
+  display: flex;
+  justify-content: center;
 }
